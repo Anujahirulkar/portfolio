@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: #fff;
+        }
+
+        header {
+            background-color: #282828;
+            padding: 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: white;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #8c8c8c;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #7ac142;
+        }
+
+        .skills-section {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .skills-section h2 {
+            font-size: 40px;
+            color: white;
+        }
+
+        .skills-section p {
+            font-size: 18px;
+            color: #bfbfbf;
+            margin: 10px 0 40px 0;
+        }
+
+        .skills-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .skill {
+            width: 45%;
+            margin: 10px;
+        }
+
+        .skill-title {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+
+        .skill-title h4 {
+            color: white;
+            font-size: 20px;
+        }
+
+        .skill-bar {
+            background-color: #333;
+            border-radius: 5px;
+            overflow: hidden;
+            height: 8px;
+        }
+
+        .skill-bar span {
+            display: block;
+            height: 100%;
+            background-color: #7ac142;
+            border-radius: 5px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            background-color: #282828;
+            padding: 40px;
+        }
+
+        .footer div {
+            width: 25%;
+            color: #bfbfbf;
+        }
+
+        .footer a {
+            color: #7ac142;
+            text-decoration: none;
+        }
+
+        .footer ul {
+            list-style-type: none;
+        }
+
+        .footer ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer ul li a:hover {
+            color: white;
+        }
+
+        .footer-icons {
+            margin-top: 20px;
+        }
+
+        .footer-icons a {
+            margin-right: 10px;
+            color: #fff;
+            font-size: 20px;
+        }
+
+        .footer-icons a:hover {
+            color: #7ac142;
+        }
+
+        .copyright {
+            text-align: center;
+            background-color: #1e1e1e;
+            padding: 20px;
+            color: #7ac142;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>STEVE</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Aboutus.html">Aboutus</a></li>
+
+                <li><a href="skills.html">skills</a></li>
+                <li><a href="Resume.html">Resume</a></li>
+                
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section class="skills-section">
+        <h2>My Skills</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <div class="skills-container">
+            <div class="skill">
+                <div class="skill-title">
+                    <h4>Photoshop</h4>
+                    <span>90%</span>
+                </div>
+                <div class="skill-bar">
+                    <span style="width: 90%;"></span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-title">
+                    <h4>jQuery</h4>
+                    <span>75%</span>
+                </div>
+                <div class="skill-bar">
+                    <span style="width: 75%;"></span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-title">
+                    <h4>HTML5</h4>
+                    <span>85%</span>
+                </div>
+                <div class="skill-bar">
+                    <span style="width: 85%;"></span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-title">
+                    <h4>CSS3</h4>
+                    <span>80%</span>
+                </div>
+                <div class="skill-bar">
+                    <span style="width: 80%;"></span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-title">
+                    <h4>WordPress</h4>
+                    <span>60%</span>
+                </div>
+                <div class="skill-bar">
+                    <span style="width: 60%;"></span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-title">
+                    <h4>PHP</h4>
+                    <span>68%</span>
+                </div>
+                <div class="skill-bar">
+                    <span style="width: 68%;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div>
+            <h4>About</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div>
+            <h4>Links</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">skills</a></li>
+                <li><a href="#">Aboutus</a></li>
+                <li><a href="#">Resume</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>More</h4>
+            <ul>
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Business Strategy</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Have a Question?</h4>
+            <p>110 Baker Street St. Mountain View, New York, USA</p>
+            <p>Phone: +8232 883 0000</p>
+            <p>Email: info@domain.com</p>
+
+            <div class="footer-icons">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        <p>Copyright © 2022 All rights reserved | Awesome Template Design</p>
+    </div>
+
+</body>
+</html>
